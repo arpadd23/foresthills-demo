@@ -15,7 +15,7 @@
   },
   "Hero": {
     "eyebrow": "Zirc · Bakony",
-    "title": "Kilenc lyuk a Bakony szívében",
+    "title": "Golf a Bakony szívében",
     "subtitle": "9+9 lyukas golfpálya és footgolf pálya a Bakony szívében — szálláspartnerünk a Hotel Szarvaskút.",
     "primaryCta": "Időpont kérése",
     "secondaryCta": "Fedezd fel a pályát",
@@ -25,10 +25,16 @@
     "eyebrow": "Foglalás",
     "title": "Időpont-egyeztetés",
     "subtitle": "Mondd el, mikor jönnél, és visszahívunk 24 órán belül.",
+    "labelType": "Tevékenység",
+    "typeGolf": "Golf",
+    "typeFootgolf": "Footgolf",
+    "typeStay": "Szállás",
+    "typeEvent": "Rendezvény",
     "labelDate": "Dátum",
     "labelGuests": "Játékosok",
     "labelTime": "Időpont",
     "labelName": "Név",
+    "labelEmail": "E-mail",
     "labelPhone": "Telefonszám",
     "guestsOne": "1 játékos",
     "guestsTwo": "2 játékos",
@@ -72,8 +78,8 @@
     "parValue": "72",
     "length": "hossz",
     "lengthValue": "6200 m",
-    "bunkers": "bunker",
-    "bunkersValue": "15+"
+    "hazards": "vízakadály",
+    "hazardsValue": "5"
   },
   "Gallery": {
     "eyebrow": "Galéria",

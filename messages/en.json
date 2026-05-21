@@ -15,7 +15,7 @@
   },
   "Hero": {
     "eyebrow": "Zirc · Bakony",
-    "title": "Nine holes in the heart of the Bakony",
+    "title": "Golf in the heart of the Bakony",
     "subtitle": "9+9 hole golf course and footgolf course in the heart of the Bakony — accommodation through our partner Hotel Szarvaskút.",
     "primaryCta": "Request a tee time",
     "secondaryCta": "Discover the course",
@@ -25,10 +25,16 @@
     "eyebrow": "Booking",
     "title": "Request a tee time",
     "subtitle": "Tell us when you'd like to play and we'll call you back within 24 hours.",
+    "labelType": "Activity",
+    "typeGolf": "Golf",
+    "typeFootgolf": "Footgolf",
+    "typeStay": "Accommodation",
+    "typeEvent": "Corporate event",
     "labelDate": "Date",
     "labelGuests": "Players",
     "labelTime": "Time of day",
     "labelName": "Name",
+    "labelEmail": "Email",
     "labelPhone": "Phone",
     "guestsOne": "1 player",
     "guestsTwo": "2 players",
@@ -72,8 +78,8 @@
     "parValue": "72",
     "length": "length",
     "lengthValue": "6200 m",
-    "bunkers": "bunkers",
-    "bunkersValue": "15+"
+    "hazards": "water hazards",
+    "hazardsValue": "5"
   },
   "Gallery": {
     "eyebrow": "Gallery",

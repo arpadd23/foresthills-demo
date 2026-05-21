@@ -72,6 +72,21 @@ export function InquiryWidget() {
         >
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
             <div className="flex flex-col gap-1.5">
+              <label htmlFor="inq-type" className="text-xs font-medium text-cream-100/80 uppercase tracking-wider">
+                {t('labelType')}
+              </label>
+              <select
+                id="inq-type"
+                className="h-11 rounded-lg border border-cream-50/15 bg-forest-900/60 px-3 text-cream-50 text-sm focus:outline-none focus:ring-1 focus:ring-gold-400 focus:border-gold-400 transition-colors appearance-none"
+              >
+                <option value="golf">{t('typeGolf')}</option>
+                <option value="footgolf">{t('typeFootgolf')}</option>
+                <option value="stay">{t('typeStay')}</option>
+                <option value="event">{t('typeEvent')}</option>
+              </select>
+            </div>
+
+            <div className="flex flex-col gap-1.5">
               <label htmlFor="inq-date" className="text-xs font-medium text-cream-100/80 uppercase tracking-wider">
                 {t('labelDate')}
               </label>
@@ -110,7 +125,9 @@ export function InquiryWidget() {
                 <option value="afternoon">{t('timeAfternoon')}</option>
               </select>
             </div>
+          </div>
 
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
             <div className="flex flex-col gap-1.5">
               <label htmlFor="inq-name" className="text-xs font-medium text-cream-100/80 uppercase tracking-wider">
                 {t('labelName')}
@@ -122,10 +139,20 @@ export function InquiryWidget() {
                 className="h-11 rounded-lg border border-cream-50/15 bg-forest-900/60 px-3 text-cream-50 text-sm placeholder:text-cream-100/30 focus:outline-none focus:ring-1 focus:ring-gold-400 focus:border-gold-400 transition-colors"
               />
             </div>
-          </div>
 
-          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-            <div className="flex flex-col gap-1.5 flex-1">
+            <div className="flex flex-col gap-1.5">
+              <label htmlFor="inq-email" className="text-xs font-medium text-cream-100/80 uppercase tracking-wider">
+                {t('labelEmail')}
+              </label>
+              <input
+                id="inq-email"
+                type="email"
+                autoComplete="email"
+                className="h-11 rounded-lg border border-cream-50/15 bg-forest-900/60 px-3 text-cream-50 text-sm placeholder:text-cream-100/30 focus:outline-none focus:ring-1 focus:ring-gold-400 focus:border-gold-400 transition-colors"
+              />
+            </div>
+
+            <div className="flex flex-col gap-1.5">
               <label htmlFor="inq-phone" className="text-xs font-medium text-cream-100/80 uppercase tracking-wider">
                 {t('labelPhone')}
               </label>
@@ -136,18 +163,19 @@ export function InquiryWidget() {
                 className="h-11 rounded-lg border border-cream-50/15 bg-forest-900/60 px-3 text-cream-50 text-sm placeholder:text-cream-100/30 focus:outline-none focus:ring-1 focus:ring-gold-400 focus:border-gold-400 transition-colors"
               />
             </div>
-            <div className="sm:mt-6 w-full sm:w-auto">
+
+            <div className="flex flex-col gap-1.5 justify-end">
               <Button
                 type="submit"
                 disabled={status === 'submitting'}
-                className="w-full sm:w-auto"
+                className="w-full h-11"
               >
                 {status === 'submitting' ? t('submitting') : t('submit')}
               </Button>
             </div>
           </div>
 
-          <p className="mt-4 text-xs text-cream-100/40 italic">{t('demoNote')}</p>
+          <p className="mt-2 text-xs text-cream-100/40 italic">{t('demoNote')}</p>
         </form>
       </div>
     </section>

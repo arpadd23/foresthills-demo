@@ -30,7 +30,7 @@ export function CourseStats() {
           <StatBlock value={t('holesValue')} label={t('holes')} />
           <StatBlock value={t('parValue')} label={t('par')} />
           <StatBlock value={t('lengthValue')} label={t('length')} />
-          <StatBlock value={t('bunkersValue')} label={t('bunkers')} />
+          <StatBlock value={t('hazardsValue')} label={t('hazards')} />
         </div>
       </div>
     </section>
