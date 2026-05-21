@@ -23,7 +23,7 @@
   },
   "Inquiry": {
     "eyebrow": "Foglalás",
-    "title": "Időpont egyeztetés",
+    "title": "Időpont-egyeztetés",
     "subtitle": "Mondd el, mikor jönnél, és visszahívunk 24 órán belül.",
     "labelDate": "Dátum",
     "labelGuests": "Játékosok",
@@ -42,22 +42,22 @@
     "successTitle": "Köszönjük!",
     "successText": "Érdeklődésedet megkaptuk. 24 órán belül felvesszük veled a kapcsolatot.",
     "successAgain": "Új érdeklődés",
-    "demoNote": "Ez egy koncepció bemutató — az adatok jelenleg nem mentődnek."
+    "demoNote": "Ez egy koncepció bemutató — az adatok nem kerülnek mentésre."
   },
   "Story": {
     "eyebrow": "A klubról",
     "title": "Egy hely, ahol a Bakony találkozik a játékkal",
-    "p1": "A Forest Hills Golf Club Zirc mellett, a Bakony erdőkkel ölelt szívében fekszik. A 9+9 lyukas pálya minden szakasza más karaktert mutat — itt egy fa-szegélyezte fairway, ott egy nyitott, fennsíkra futó green.",
-    "p2": "A klub a nyugodt golfozás híve. Telefonálj előre, érkezz korán, és játssz a saját tempódban. Hozd a családot — a dedikált footgolf pálya gyerekeknek és csapatoknak is ideális."
+    "p1": "A Forest Hills Golf Club Zirc mellett, a Bakony erdőkkel ölelt szívében fekszik. A 9+9 lyukas pálya minden szakasza más karaktert mutat — itt egy fákkal szegélyezett fairway, ott egy nyitott, fennsíkra futó green.",
+    "p2": "A klub a nyugodt golfozás híve. Telefonálj előre, érkezz korán, és játssz a saját tempódban. Hozd a családot — az önálló footgolf pálya gyerekeknek és csapatoknak is ideális."
   },
   "Pillars": {
     "eyebrow": "Amit nálunk találsz",
     "title": "Három élmény, egy helyen",
     "golfTitle": "Golf",
-    "golfText": "Par 72-es 18 lyukas pálya, 6200 méter hosszú, változatos technikai feladatokkal. Driving range, putting green és chipping area a felkészüléshez.",
-    "golfLink": "Tovább a Golfhoz",
+    "golfText": "Par 72-es, 18 lyukas pálya, 6200 méter hosszú, változatos technikai feladatokkal. Driving range, putting green és chipping area a felkészüléshez.",
+    "golfLink": "Tovább a golfhoz",
     "footgolfTitle": "Footgolf",
-    "footgolfText": "Dedikált footgolf pálya fiatal játékosoknak és csapatoknak — családi délutánokhoz, céges rendezvényekhez egyaránt ideális.",
+    "footgolfText": "Önálló footgolf pálya fiatal játékosoknak és csapatoknak — családi délutánokhoz, céges rendezvényekhez egyaránt ideális.",
     "footgolfLink": "Tovább a Footgolfhoz",
     "stayTitle": "Szállás",
     "stayText": "A klub partnere a Hotel Szarvaskút — kényelmes szállás és wellness néhány percre a pályától, kedvezményes csomagokkal.",
@@ -109,6 +109,6 @@
   },
   "Meta": {
     "title": "Forest Hills Golf Club — Zirc, Bakony",
-    "description": "9+9 lyukas golfpálya és dedikált footgolf a Bakony szívében, Zircen. Hotel Szarvaskút partnerség, családbarát programok, kedvezményes csomagok."
+    "description": "9+9 lyukas golfpálya és önálló footgolf pálya a Bakony szívében, Zirc mellett. Szálláspartnerünk a Hotel Szarvaskút — családbarát programok, kedvezményes csomagok."
   }
 }

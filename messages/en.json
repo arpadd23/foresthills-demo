@@ -37,11 +37,11 @@
     "timeMorning": "Morning (8–11)",
     "timeMidday": "Midday (11–14)",
     "timeAfternoon": "Afternoon (14–17)",
-    "submit": "Send request",
+    "submit": "Send enquiry",
     "submitting": "Sending…",
     "successTitle": "Thank you!",
-    "successText": "We've received your request. We'll be in touch within 24 hours.",
-    "successAgain": "New request",
+    "successText": "We've received your enquiry. We'll be in touch within 24 hours.",
+    "successAgain": "New enquiry",
     "demoNote": "This is a concept demo — submissions are not stored."
   },
   "Story": {
@@ -54,13 +54,13 @@
     "eyebrow": "What you'll find here",
     "title": "Three experiences in one place",
     "golfTitle": "Golf",
-    "golfText": "Par 72 18-hole course, 6200 metres long, with varied technical challenges. Driving range, putting green and chipping area to warm up.",
-    "golfLink": "More about Golf",
+    "golfText": "Par-72, 18-hole course stretching 6,200 metres, with varied technical challenges. Driving range, putting green and chipping area available to warm up.",
+    "golfLink": "More about golf",
     "footgolfTitle": "Footgolf",
     "footgolfText": "Dedicated footgolf course for young players and teams — perfect for family afternoons and corporate events.",
     "footgolfLink": "More about Footgolf",
     "stayTitle": "Stay",
-    "stayText": "Our partner Hotel Szarvaskút offers comfortable rooms and wellness only minutes from the course, with package deals for guests.",
+    "stayText": "Our partner Hotel Szarvaskút offers comfortable rooms and wellness facilities only minutes from the course, with package deals available for guests.",
     "stayLink": "Book your stay"
   },
   "Stats": {
@@ -109,6 +109,6 @@
   },
   "Meta": {
     "title": "Forest Hills Golf Club — Zirc, Bakony",
-    "description": "9+9 hole golf course and dedicated footgolf in the heart of the Bakony, Hungary. Hotel Szarvaskút partnership, family-friendly programmes."
+    "description": "18-hole golf course and footgolf facility in the Bakony hills, near Zirc, Hungary. Accommodation at our partner Hotel Szarvaskút. Family-friendly, open daily."
   }
 }
