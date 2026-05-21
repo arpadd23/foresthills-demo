@@ -8,7 +8,7 @@ const u = (id: string, w = 1920, h?: number) =>
   `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=${w}${h ? `&h=${h}` : ''}&q=80`;
 
 export const images = {
-  hero: u('1535131749006-b7f58c99034b', 1920, 1280),
+  hero: u('1535131749006-b7f58c99034b', 1280, 854),
   story: u('1593111774240-d529f12cf4bb', 1600, 2000),
   pillarGolf: u('1592919505780-303950717480', 1200, 1500),
   pillarFootgolf: u('1599661046289-e31897846e41', 1200, 1500),
