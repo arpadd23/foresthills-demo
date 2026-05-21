@@ -16,7 +16,7 @@
   "Hero": {
     "eyebrow": "Zirc · Bakony",
     "title": "Kilenc lyuk a Bakony szívében",
-    "subtitle": "9+9 lyukas golfpálya, dedikált footgolf, hotel partnerség — a Bakony erdőktől ölelt szívében.",
+    "subtitle": "9+9 lyukas golfpálya, dedikált footgolf, hotelpartnerség — a Bakony erdőktől ölelt szívében.",
     "primaryCta": "Időpont kérése",
     "secondaryCta": "Fedezd fel a pályát",
     "scrollLabel": "Tovább"
@@ -24,7 +24,7 @@
   "Inquiry": {
     "eyebrow": "Foglalás",
     "title": "Időpont egyeztetés",
-    "subtitle": "Mond el mikor jönnél, és visszahívunk 24 órán belül.",
+    "subtitle": "Mondd el, mikor jönnél, és visszahívunk 24 órán belül.",
     "labelDate": "Dátum",
     "labelGuests": "Játékosok",
     "labelTime": "Időpont",
@@ -57,10 +57,10 @@
     "golfText": "Par 72-es 18 lyukas pálya, 6200 méter hosszú, változatos technikai feladatokkal. Driving range, putting green és chipping area a felkészüléshez.",
     "golfLink": "Tovább a Golfhoz",
     "footgolfTitle": "Footgolf",
-    "footgolfText": "Dedikált footgolf pálya a fiatal és csapatos sportolóknak — családi délutánokhoz, céges rendezvényekhez egyaránt ideális.",
+    "footgolfText": "Dedikált footgolf pálya fiatal játékosoknak és csapatoknak — családi délutánokhoz, céges rendezvényekhez egyaránt ideális.",
     "footgolfLink": "Tovább a Footgolfhoz",
     "stayTitle": "Szállás",
-    "stayText": "A klub partnere a Hotel Szarvaskút — kényelmes szállás és wellness néhány percre a páylától, kedvezményes csomagokkal.",
+    "stayText": "A klub partnere a Hotel Szarvaskút — kényelmes szállás és wellness néhány percre a pályától, kedvezményes csomagokkal.",
     "stayLink": "Foglalj szállást"
   },
   "Stats": {
@@ -88,7 +88,7 @@
   },
   "Contact": {
     "eyebrow": "Kapcsolat",
-    "title": "Hol talász minket",
+    "title": "Hol találsz minket",
     "addressLabel": "Cím",
     "addressValue": "Forest Hills Golf Club\nSzarvaskút, 8420 Zirc",
     "phoneLabel": "Telefon",
@@ -103,7 +103,7 @@
     "navTitle": "Navigáció",
     "contactTitle": "Kapcsolat",
     "partnerTitle": "Partner",
-    "partnerText": "A Forest Hills Hotel a Hotel Szarvaskút része.",
+    "partnerText": "A Forest Hills Golf Club szálláspartnere a Hotel Szarvaskút.",
     "copyright": "© {year} Forest Hills Golf Club. Minden jog fenntartva.",
     "sampleNote": "Demo bemutató — minta tartalom és minta képek."
   },
