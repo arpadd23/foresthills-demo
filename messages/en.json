@@ -1,0 +1,113 @@
+{
+  "Header": {
+    "navGolf": "Golf",
+    "navFootgolf": "Footgolf",
+    "navGallery": "Gallery",
+    "navContact": "Contact",
+    "ctaBook": "Request a tee time",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
+  },
+  "LanguageSwitcher": {
+    "label": "Language",
+    "hu": "Magyar",
+    "en": "English"
+  },
+  "Hero": {
+    "eyebrow": "Zirc · Bakony",
+    "title": "Nine holes in the heart of the Bakony",
+    "subtitle": "9+9 hole golf course, dedicated footgolf course, hotel partnership — in the forested heart of the Bakony, Hungary.",
+    "primaryCta": "Request a tee time",
+    "secondaryCta": "Discover the course"
+  },
+  "Inquiry": {
+    "eyebrow": "Booking",
+    "title": "Request a tee time",
+    "subtitle": "Tell us when you'd like to play and we'll call you back within 24 hours.",
+    "labelDate": "Date",
+    "labelGuests": "Players",
+    "labelTime": "Time of day",
+    "labelName": "Name",
+    "labelPhone": "Phone",
+    "guestsOne": "1 player",
+    "guestsTwo": "2 players",
+    "guestsThree": "3 players",
+    "guestsFour": "4 players",
+    "timeMorning": "Morning (8–11)",
+    "timeMidday": "Midday (11–14)",
+    "timeAfternoon": "Afternoon (14–17)",
+    "submit": "Send request",
+    "submitting": "Sending…",
+    "successTitle": "Thank you!",
+    "successText": "We've received your request. We'll be in touch within 24 hours.",
+    "successAgain": "New request",
+    "demoNote": "This is a concept demo — submissions are not stored."
+  },
+  "Story": {
+    "eyebrow": "About the club",
+    "title": "Where the Bakony meets the game",
+    "p1": "Forest Hills Golf Club sits near the town of Zirc, in the forested heart of the Bakony mountains. Each section of the 9+9 hole course has its own character — a tree-lined fairway here, an open plateau green there.",
+    "p2": "We favour an unhurried game. Call ahead, arrive early, and play at your own pace. Bring the family — the dedicated footgolf course is built for kids, friends, and corporate teams alike."
+  },
+  "Pillars": {
+    "eyebrow": "What you'll find here",
+    "title": "Three experiences in one place",
+    "golfTitle": "Golf",
+    "golfText": "Par 72 18-hole course, 6200 metres long, with varied technical challenges. Driving range, putting green and chipping area to warm up.",
+    "golfLink": "More about Golf",
+    "footgolfTitle": "Footgolf",
+    "footgolfText": "Dedicated footgolf course for young players and teams — perfect for family afternoons and corporate events.",
+    "footgolfLink": "More about Footgolf",
+    "stayTitle": "Stay",
+    "stayText": "Our partner Hotel Szarvaskút offers comfortable rooms and wellness only minutes from the course, with package deals for guests.",
+    "stayLink": "Book your stay"
+  },
+  "Stats": {
+    "eyebrow": "The course",
+    "title": "At a glance",
+    "holes": "holes",
+    "holesValue": "9 + 9",
+    "par": "Par",
+    "parValue": "72",
+    "length": "length",
+    "lengthValue": "6200 m",
+    "bunkers": "bunkers",
+    "bunkersValue": "15+"
+  },
+  "Gallery": {
+    "eyebrow": "Gallery",
+    "title": "Glimpses from the club",
+    "linkAll": "View all photos",
+    "alt1": "Golf carts lined up in front of the clubhouse",
+    "alt2": "Bakony forest landscape — a ridge running into the fairway",
+    "alt3": "Putting green in early-morning light",
+    "alt4": "Fairway running to the green, forest in the distance",
+    "alt5": "Water hazard with a small fountain at its centre",
+    "alt6": "Open course section with the Bakony hills beyond"
+  },
+  "Contact": {
+    "eyebrow": "Contact",
+    "title": "Where to find us",
+    "addressLabel": "Address",
+    "addressValue": "Forest Hills Golf Club\nSzarvaskút, 8420 Zirc, Hungary",
+    "phoneLabel": "Phone",
+    "phoneValue": "+36 88 573 310",
+    "emailLabel": "Email",
+    "emailValue": "golf@foresthills.hu",
+    "hoursLabel": "Open",
+    "hoursValue": "Daily 8:00 — sunset"
+  },
+  "Footer": {
+    "tagline": "Golf, footgolf and wellness in the heart of the Bakony.",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
+    "partnerTitle": "Partner",
+    "partnerText": "Forest Hills Hotel is part of Hotel Szarvaskút.",
+    "copyright": "© {year} Forest Hills Golf Club. All rights reserved.",
+    "sampleNote": "Concept demo — sample content and sample images."
+  },
+  "Meta": {
+    "title": "Forest Hills Golf Club — Zirc, Bakony",
+    "description": "9+9 hole golf course and dedicated footgolf in the heart of the Bakony, Hungary. Hotel Szarvaskút partnership, family-friendly programmes."
+  }
+}

@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@theme {
+  /* Forest greens — primary brand */
+  --color-forest-950: #0A1F15;
+  --color-forest-900: #0F2C20;
+  --color-forest-800: #14362A;
+  --color-forest-700: #1A3D2E;
+  --color-forest-600: #234E3B;
+  --color-forest-500: #2D5C44;
+  --color-forest-400: #45785F;
+
+  /* Cream / mist — primary text on dark */
+  --color-cream-50: #F5EFE0;
+  --color-cream-100: #ECE4D0;
+  --color-cream-200: #D4CDB8;
+  --color-mist-300: #A8A293;
+  --color-mist-400: #7E7A6F;
+
+  /* Gold — accent, CTAs */
+  --color-gold-300: #DDC890;
+  --color-gold-400: #D4B97A;
+  --color-gold-500: #C9A961;
+  --color-gold-600: #B0944F;
+
+  /* Neutrals */
+  --color-charcoal-950: #060707;
+  --color-charcoal-900: #0A0A0A;
+
+  /* Fonts (CSS vars assigned by next/font in layout) */
+  --font-display: var(--font-cormorant);
+  --font-sans: var(--font-inter);
+
+  /* Custom font sizes */
+  --text-display-sm: 2.5rem;
+  --text-display: clamp(2.5rem, 4vw + 1rem, 4.5rem);
+  --text-display-lg: clamp(3rem, 5vw + 1rem, 6rem);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background: var(--color-forest-900);
+    color: var(--color-cream-50);
+    font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  }
+
+  ::selection {
+    background: var(--color-gold-500);
+    color: var(--color-forest-950);
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display), Georgia, "Times New Roman", serif;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+}
+
+@utility text-display-lg {
+  font-size: var(--text-display-lg);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+@utility text-display {
+  font-size: var(--text-display);
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+}
+
+@utility eyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+@utility container-page {
+  width: 100%;
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+
+  @media (min-width: 768px) {
+    padding-inline: 2.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
