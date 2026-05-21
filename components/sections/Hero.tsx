@@ -49,7 +49,7 @@ export function Hero() {
         aria-label="Görgetés lefelé"
         className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-1 text-cream-50/60 hover:text-cream-50 transition-colors duration-200"
       >
-        <span className="text-xs uppercase tracking-widest font-medium">Tovább</span>
+        <span className="text-xs uppercase tracking-widest font-medium">{t('scrollLabel')}</span>
         <svg
           width="20"
           height="20"
